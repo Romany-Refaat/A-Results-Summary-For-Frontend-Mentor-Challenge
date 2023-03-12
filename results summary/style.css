@@ -1,0 +1,339 @@
+@font-face {
+    font-family: Hanken;
+    src: url(results-summary-component-main/results-summary-component-main/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Hanken;
+}
+
+.main {
+    box-shadow: 0 0 10 rgba(241,242,254,255) ;
+}
+
+.main-left {
+    background-image: linear-gradient(rgba(69,51,235,255),
+    rgba(68,53,242,255));
+    text-align: center;
+    height: 450px;
+    width: 320px;
+    border-radius: 20px;
+    position: absolute;
+    left: 20em;
+    top: 4em;
+}
+
+.ur {
+    padding: 30px 0;
+    color: white;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image:
+     linear-gradient(rgba(74,36,207,255),
+      rgba(69,51,235,255));
+    position: relative;
+    left: 60px;
+}
+
+.f76,
+.of-100 {
+    position: relative;
+    top: 30px;
+    color: white;
+}
+
+.f76 {
+    font-size: 5em;
+    font-weight: 700;
+}
+
+.of-100 {
+    opacity: .5;
+    color: hsl(221, 100%, 96%);
+    font-weight: 400;
+}
+
+.great {
+    color: hsl(221, 100%, 96%);
+    position: relative;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 70px;
+}
+
+.sentence-great {
+    width: 25ch;
+    color: white;
+    opacity: .6;
+    font-weight: 400;
+    position: relative;
+    left: 16%;
+}
+
+.main-right {
+    text-align: left;
+    height: 450px;
+    width: 340px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    left: 20em;
+    top: 0em;
+}
+
+.summary {
+    position: relative;
+    left: 25px;
+    top: 15px;
+}
+
+/* Reaction */
+
+.reaction-img {
+    display: inline;
+    top: 45px;
+    position: relative;
+}
+
+.reaction {
+    display: inline;
+    font-weight: 700;
+}
+
+.reaction-img {
+    position: relative;
+    top: 4px;
+}
+
+.f80 {
+    display: inline;
+    position: relative;
+    left: 100px;
+    color: black;
+    font-weight: 800;
+}
+
+.f100 {
+    display: inline;
+    position: relative;
+    left: 100px;
+    color: black;
+    opacity: .5;
+    font-weight: 800;
+}
+
+.reaction-div {
+    background-color: rgba(255,246,245,255);
+    color: hsl(0, 100%, 67%);
+    border: 1px solid rgba(255,246,245,255);
+    border-radius: 10px;
+    width: 270px;
+    top: 40px;
+    left: 30px;
+    position: relative;
+    padding: 10px;
+    margin: 0 0 15px;
+    transition: .5s;
+}
+
+/* Memory */
+
+.memory-img {
+    display: inline;
+    top: 45px;
+    position: relative;
+}
+
+.memory {
+    display: inline;
+    font-weight: 700;
+    color: hsl(39, 100%, 56%);
+}
+
+.memory-img {
+    position: relative;
+    top: 4px;
+}
+
+.f92 {
+    display: inline;
+    position: relative;
+    left: 100px;
+    color: black;
+    font-weight: 800;
+}
+
+.f100 {
+    display: inline;
+    position: relative;
+    left: 100px;
+    color: black;
+    opacity: .5;
+    font-weight: 800;
+}
+
+.memory-div {
+    background-color: rgba(255,246,245,255);
+    color: hsl(0, 100%, 67%);
+    border: 1px solid rgba(255,246,245,255);
+    border-radius: 10px;
+    width: 270px;
+    top: 40px;
+    left: 30px;
+    position: relative;
+    padding: 10px;
+    margin: 0 0 15px;
+    transition: .5s;
+}
+
+
+/* Verbal */
+
+.verbal-img {
+    display: inline;
+    top: 45px;
+    position: relative;
+}
+
+.verbal {
+    display: inline;
+    font-weight: 700;
+    color: hsl(166, 100%, 37%);
+    position: relative;
+    left: -55px;
+}
+
+.verbal-img {
+    position: relative;
+    top: 4px;
+    left: -55px;
+}
+
+.f61 {
+    display: inline;
+    position: relative;
+    left: 100px;
+    color: black;
+    font-weight: 800;
+}
+
+.f100 {
+    display: inline;
+    position: relative;
+    left: 100px;
+    color: black;
+    opacity: .5;
+    font-weight: 800;
+}
+
+.verbal-marks {
+    display: inline;
+    position: relative;
+    left: -40px;
+}
+
+.verbal-div {
+    background-color: rgba(255,246,245,255);
+    color: hsl(0, 100%, 67%);
+    border: 1px solid rgba(255,246,245,255);
+    border-radius: 10px;
+    width: 270px;
+    top: -200px;
+    left: 350px;
+    position: relative;
+    padding: 10px 0;
+    margin: -20px 0 15px;
+    transition: .5s;
+}
+
+
+/* Visual */
+.visual-img {
+    display: inline;
+    top: 45px;
+    position: relative;
+    left: -55px;
+}
+
+.visual {
+    display: inline;
+    font-weight: 700;
+    position: relative;
+    left: -55px;
+}
+
+.visual-img {
+    position: relative;
+    top: 4px;
+}
+
+.f72 {
+    display: inline;
+    position: relative;
+    left: 100px;
+    color: black;
+    font-weight: 800;
+}
+
+.f100 {
+    display: inline;
+    position: relative;
+    left: 100px;
+    color: black;
+    opacity: .5;
+    font-weight: 800;
+}
+
+.visual-marks {
+    display: inline;
+    position: relative;
+    left: -40px;
+}
+
+.visual-div {
+    background-color: rgba(255,246,245,255);
+    color: hsl(0, 100%, 67%);
+    border: 1px solid rgba(255,246,245,255);
+    border-radius: 10px;
+    width: 270px;
+    top: -200px;
+    left: 350px;
+    position: relative;
+    padding: 10px;
+    margin: 0 0 15px;
+    transition: .5s;
+}
+
+
+.reaction-div:hover {
+    transform: scale(1.1);
+}
+.memory-div:hover {
+    transform: scale(1.1);
+}
+.verbal-div:hover {
+    transform: scale(1.1);
+}
+.visual-div:hover {
+    transform: scale(1.1);
+}
+
+.submit {
+    position: relative;
+    left: 330px;
+    top: -180px;
+    background-color: rgba(48,59,89,255);
+    color: white;
+    font-weight: 500;
+    padding: 15px 50px;
+    border-radius: 40px;
+    border: none;
+    width: 250px;
+}
